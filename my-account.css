@@ -1,0 +1,332 @@
+body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    font-size: 1rem;
+}
+
+p {
+	color: #495057 !important;
+}
+
+.emp-profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+    width: 50%;
+    height: 100%;
+}
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+.profile-head h5{
+    color: #333;
+}
+.profile-head h6{
+    color: #0062cc;
+}
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 3%;
+    font-weight: 600;
+    color: white;
+    background-color: #dc3545;
+    cursor: pointer;
+}
+.proile-rating{
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+.proile-rating span{
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+.profile-work{
+    padding: 14%;
+    margin-top: -15%;
+}
+.profile-work p{
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.profile-work a{
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 400;
+    color: #0062cc;
+}
+
+.buttons-form-skills {
+	padding-top: 10px;
+ 			float: right;
+}
+
+.delete-circle {
+	color: orangered;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.ui.fluid.card {
+	width: 75% !important;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #3931af;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+    cursor: pointer;
+}
+
+.step-roadmap {
+	color: #007bff !important;
+	font-weight: bold !important;
+}
+
+.nav.nav-tabs a {
+	font-size: 12px;
+}
+
+.nav-link {
+	padding: 0.4rem 0.8rem !important;
+}
+
+.control-skills {
+	float: right;
+	padding-top: 10px;
+}
+
+.add-skill {
+	padding-right: 10px !important;
+	color: #007bff !important;
+	cursor: pointer !important;
+	
+}
+
+.add-skill:hover {
+    color: #0056b3 !important;
+    text-decoration: underline !important;
+}
+
+.delete-skill {
+	padding-right: 10px !important;
+	color: #007bff !important;
+	cursor: pointer !important;
+	
+}
+
+.delete-skill:hover {
+    color: #0056b3 !important;
+    text-decoration: underline !important;
+}
+
+.cancel {
+	padding-right: 10px !important;
+	color: #007bff !important;
+	cursor: pointer !important;
+	
+}
+
+.cancel:hover {
+    color: #0056b3 !important;
+    text-decoration: underline !important;
+}
+
+.dropbtn {
+  
+  background: rgba(0,0,0,.05);
+  color: rgba(0,0,0,.95);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  border-radius: .28571429rem;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background: rgba(0,0,0,.05);
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-color: #f8f9fa !important;
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  padding: 5px 25px 5px 25px;
+  border: none;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+}
+
+#myInput:focus {
+	outline: 3px solid #ddd;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+	background-color: #ddd;
+}
+
+.show {
+	display: block;
+}
+
+.delete-circle {
+	font-size: 20px !important;
+    color: grey !important;
+    cursor: pointer;
+    display: none;
+}
+
+.delete-circle:hover {
+	color: indianred !important;
+}
+
+#my-project-detail-container {
+	display: none;
+}
+
+#increase-team-container {
+	padding: 20px;
+}
+
+.close-modal {
+	float: right;
+    font-size: 24px;
+    color: grey;
+    cursor: pointer;
+}
+
+.close-modal:hover {
+	color: black;
+}
+
+#new-projects {
+	width: 100%;
+	padding: 20px;
+}
+
+#arrow-down-search {
+	position: absolute;
+    right: 10px;
+    top: 10px;
+	color: grey;
+	cursor: pointer;
+}
+
+#arrow-down-search:hover {
+	color: black;
+}
+
+#arrow-up-search {
+	position: absolute;
+    right: 10px;
+    top: 10px;
+	display: none;
+	color: grey;
+	cursor: pointer;
+}
+
+#arrow-up-search:hover {
+	color: black;
+}
+
+#my-project-detail-container {
+	width: 75%;
+}
